@@ -2,6 +2,8 @@ py-tsort
 ========
 
 topological sort in python.
+
+
 Topologically sort vertices in a DAG. 
 Useful for dependency resolution.
 
