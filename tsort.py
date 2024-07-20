@@ -24,7 +24,7 @@ def topological_sort(edges):
     def add(s,t):
         try:
             st.setdefault(s,{})[t]=1
-        except Exception, e:
+        except Exception as e:
             raise RuntimeError(e, (s,t))
         ts.setdefault(t,{})[s]=1
 
